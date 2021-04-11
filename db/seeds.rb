@@ -6,9 +6,9 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-
-Item.create(name:"Cat Blanket")
 Item.create(name:"Dog House")
+Item.create(name:"Cat Blanket")
+Item.create(name:"Frog Onesie")
 
 Image.create(file_name:"dh_1_m.jpg", item_id:1)
 Image.create(file_name:"dh_2.jpg", item_id:1)
